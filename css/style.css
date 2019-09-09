@@ -1,0 +1,126 @@
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+}
+body {
+    line-height: 1.8;
+
+}
+
+.navbar-custom {
+    background-color: #1b1b1b;
+    border-color: #E7E7E7;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+.splash {
+    padding-top: 10vh;
+    padding-bottom: 8vh;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 100vh;
+}
+
+.splash h1 {
+    color: white;
+    font-weight: bold;
+    font-size: calc(50px + 5vmin);
+}
+
+.splash h2 {
+    color: lightgray;
+    font-weight: normal;
+}
+
+#splash-logo {
+    margin: 7vh;
+    width: 80vw;
+}
+
+.section {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+.section p {
+    text-align: left;
+}
+
+.section h1 {
+    padding-bottom: 5vh;
+}
+
+.section h2 {
+    padding-bottom: 10px;
+}
+.section h3 {
+    padding-bottom: 10px;
+}
+
+.section-dark {
+    background-color: #404040;
+    color: lightgrey;
+}
+.section-darker {
+    background-color: #000000;
+    color: lightgrey;
+}
+
+.section-light {
+    background-color: lightgrey;
+    color: #404040;
+}
+
+.section-box {
+    color: #404040;
+}
+
+.section-box .container {
+    background-color: lightgrey;
+    padding: 5vh;
+    color: #404040;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: lightgrey;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.footer-link {
+    color: #acacac;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.footer-link:hover {
+    color: #d1d1d1;
+
+}
+footer h6 {
+    font-size: 16px;
+    color: #acacac;
+}
