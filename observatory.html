@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rutgers Astronomical Society</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/icon">
+  <link rel="icon" href="favicon.ico" type="image/icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CDN Imports (CSS & JS) -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/Logo2019.png" height="45" /> &nbsp Rutgers Astronomical Society</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto float-center text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="observatory.html">Observatory<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#advisors">Advisors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#officers">Officers</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <div style="height: 5vh;">
+
+  </div>
+  <div id="observatory" class="container-fluid section section-box">
+    <div class="container shadow-lg">
+      <h1>THE OBSERVATORY</h1>
+      <div class="row justify-content-around">
+        <div class="col-lg-3" style="padding-top: 40px; padding-bottom: 40px;">
+          <h2 style="padding-bottom: 10px"></h2>
+          <img class="rounded" style="width: 100%;" src="assets/img/Robert_A_Schommer.jpg" />
+        </div>
+        <div class="col-lg-7" style="padding-bottom: 40px">
+          <h2 style="padding-bottom: 10px">The Robert A. Schommer Observatory</h2>
+          <p>
+            The Rutgers Astronomical Observatory named after Robert A. Schommer. A Professor at Rutgers University who
+            carried out some of the first CCD imaging studies of the Large Magellanic Cloud star clusters.
+            His work was fundamental in our understanding of the chemical histories of star clusters in the Magellanic
+            cloud and M33.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid section section-darker">
+    <div class="container">
+      <h1>WEATHER</h1>
+      <div class="row justify-content-center">
+          <p> Sky chart from Clear Dark Skies. click the image to be taken to their website along with the reading guide: <p>
+        <a href=http://www.cleardarksky.com/c/RSchmmrObNjkey.html> <img
+          src="http://www.cleardarksky.com/c/RSchmmrObNjcsk.gif?c=2541613"></a>
+
+      </div>
+      <div class="row justify-content-center">
+
+          <p> Gifs and Graphs provided by the <a href="http://synoptic.envsci.rutgers.edu/site/"> Rutgers Weather Center </a>:</p>
+          <table>
+              <tr>
+                  <td><a href="http://synoptic.envsci.rutgers.edu/site/imgs/vis_nj_anim.gif" title="Click to view a larger image" target=_blank><img border=0 width=300 height=285 src="http://synoptic.envsci.rutgers.edu/site/imgs/vis_nj_anim.gif"></a></td>
+                  <td><a href="http://synoptic.envsci.rutgers.edu/site/radimg/anim_njrc.gif" title="Click to view a larger image" target=_blank><img border=0 width=230 height=285 src="http://synoptic.envsci.rutgers.edu/site/radimg/anim_njrc.gif"></a></td>
+              </tr>
+              <tr>
+                  <td colspan=2>
+                      <IMG SRC="http://nbwxold.envsci.rutgers.edu/plots/air_temp.png" />
+                      <IMG SRC="http://nbwxold.envsci.rutgers.edu/plots/rel_hum.png" />
+                      <IMG SRC="http://nbwxold.envsci.rutgers.edu/plots/rainfall.png" />
+                      <IMG SRC="http://nbwxold.envsci.rutgers.edu/plots/wind_speed.png" />
+
+                  </td>
+              </tr>
+          </table>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="observatory" class="container-fluid section section-box">
+    <div class="container shadow-lg">
+      <h1>Directions</h1>
+      <div class="row justify-content-center">
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe style="width: 55vw; height: 50vh;" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=Serin%20Physics%20Building%2C%20Piscataway%20Township%2C%20NJ%2008854&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <style>
+              .mapouter {
+                text-align: right;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7" style="padding-top: 20px;">
+            
+            <p style="text-align: center;">The Robert A. Schommer Astronomical Observatory is located in the dome on the roof of the Serin Physics
+                Laboratories on the corner of Frelinghuysen Road and Allison Road on the Busch Campus of Rutgers, the State
+                University of New Jersey. Our address is 136 Frelinghuysen Road, Piscataway, NJ and directions to our
+                building are available. Park in lot 53 (between the building and the street) or lot 53A (about one block
+                east on the other side of Frelinghuysen Road). Enter the doors on the west end of the building (facing
+                Allison Road) and take the stairs (left or right sides of the lobby) or the elevator (left side of the
+                lobby) to the fourth floor.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer class="container-fluid">
+      <div class="row justify-content-around">
+        <div class="col-sm-2" style="padding-bottom: 40px">
+          <h2 style="padding-bottom: 10px">Contact</h2>
+          <h6>Got Questions?</h6>
+          <h6>Send us an email at:</h6>
+          <h6 class="email">ruastronomical&#64;gmail.com</h6>
+        </div>
+        <div class="col-sm-2" style="padding-bottom: 40px">
+          <h2 style="padding-bottom: 10px">Resources</h2>
+          <h6><a class="footer-link" href="http://physics.rutgers.edu/">Rutgers Physics</a></h6>
+          <a class="footer-link" href="http://sps.physics.rutgers.edu/">Rutgers SPS</a>
+        </div>
+
+      </div>
+      <p>&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script> Rutgers Astronomical Society. All rights reserved.</p>
+    </footer>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript">
+      particlesJS("particles-js", { "particles": { "number": { "value": 160, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 1, "random": true, "anim": { "enable": true, "speed": 1, "opacity_min": 0, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 4, "size_min": 0.3, "sync": false } }, "line_linked": { "enable": false, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 0.5, "direction": "none", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 600 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": false, "mode": "bubble" }, "onclick": { "enable": false, "mode": "repulse" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 250, "size": 0, "duration": 2, "opacity": 0, "speed": 3 }, "repulse": { "distance": 400, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+
+    </script>
+    <script type="text/javascript">
+
+
+    </script>
+</body>
+
+</html>
