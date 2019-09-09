@@ -40,19 +40,19 @@ body {
 }
 
 .splash h1 {
-    color: white;
+    color: lightgray;
     font-weight: bold;
-    font-size: calc(50px + 5vmin);
+    font-size: calc(30px + 5vmin);
 }
 
 .splash h2 {
-    color: lightgray;
+    color: grey;
     font-weight: normal;
 }
 
 #splash-logo {
     margin: 7vh;
-    width: 80vw;
+    width: 20vw;
 }
 
 .section {
@@ -75,6 +75,10 @@ body {
 }
 .section h3 {
     padding-bottom: 10px;
+}
+#officers h3 {
+    padding-bottom: 0px;
+    padding-top: 7px;
 }
 
 .section-dark {
