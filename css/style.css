@@ -51,8 +51,8 @@ body {
 }
 
 #splash-logo {
-    margin: 7vh;
-    width: 20vw;
+    max-width: 80vw;
+    
 }
 
 .section {
@@ -68,6 +68,7 @@ body {
 
 .section h1 {
     padding-bottom: 5vh;
+    font-size: calc(15px + 5vmin);
 }
 
 .section h2 {
